@@ -1,0 +1,56 @@
+# Convenções de Commits
+
+Este documento define o padrão de escrita de mensagens de commit para manter o histórico do projeto claro, consistente e profissional.
+
+---
+
+## Estrutura
+
+EX: <tipo>(escopo opcional): descrição breve
+
+
+### Tipos
+- **feat**: nova funcionalidade
+- **fix**: correção de bug
+- **docs**: alterações na documentação
+- **style**: mudanças de formatação (sem impacto na lógica)
+- **refactor**: refatoração de código sem alterar funcionalidade
+- **test**: inclusão ou alteração de testes
+- **chore**: manutenção (dependências, configs, etc.)
+- **perf**: melhorias de performance
+- **ci**: alterações em pipelines de integração contínua
+
+### Escopo
+- Indica a área ou módulo afetado.
+- Exemplo: `feat(auth): adicionar login com OAuth`
+
+### Descrição
+- Breve, no imperativo.
+- Evite frases longas ou genéricas.
+- Exemplo: `fix(api): corrigir erro de timeout`
+
+---
+
+## Exemplos
+- `feat(ui): implementar botão de logout`
+- `fix(auth): corrigir validação de token expirado`
+- `docs(readme): atualizar instruções de instalação`
+- `refactor(service): simplificar lógica de cálculo de desconto`
+- `test(cart): adicionar testes para remoção de itens`
+
+---
+
+## Boas Práticas
+- Usar frases curtas e no imperativo.
+- Manter consistência no idioma (português ou inglês).
+- Evitar commits genéricos como "update" ou "changes".
+- Fazer commits pequenos e focados em uma única mudança.
+- Garantir que cada commit explique *o que* foi feito, não *como*.
+
+---
+
+## Resumo
+Seguir estas convenções garante:
+- Histórico mais legível.
+- Facilidade para rastrear mudanças.
+- Melhor colaboração entre membros da equipe.
